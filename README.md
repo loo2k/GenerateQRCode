@@ -12,8 +12,8 @@
 
 ![](images/install.png?raw=true)
 
- ## 使用说明
+## 使用说明
 
- - 在想要需要生成二维码的网页中点击右上角的「生成网页二维码」的图标即可；
+在想要需要生成二维码的网页中点击右上角的「生成网页二维码」的图标即可；
 
- ![](images/demo.png?raw=true)
+![](images/demo.png?raw=true)
