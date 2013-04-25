@@ -20,7 +20,7 @@ function updateQR() {
         qr.setAttribute('title', tab.title);
         document.body.appendChild(qr);
         qr.onclick = function() {
-            console.log(chrome.browserAction);
+            window.close();
         }
     });
 }

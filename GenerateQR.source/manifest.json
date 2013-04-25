@@ -1,18 +1,18 @@
 {
     "name"             : "生成网页二维码",
-    "version"          : "0.1",
+    "version"          : "0.2",
     "manifest_version" : 2,
     "description"      : "自动生成当前网页的二维码",
     "icons"            : { 
-        "16"  : "chart16.png",
-        "48"  : "chart48.png",
-        "128" : "chart128.png"
+        "16"  : "images/icon16.png",
+        "48"  : "images/icon48.png",
+        "128" : "images/icon128.png"
     },
     "browser_action"   : {
-        "default_icon"  : "chart16.png",
+        "default_icon"  : "images/icon19.png",
         "default_title" : "生成网页的二维码",
         "default_popup" : "popup.html"
     },
-    "homepage_url"     : "http://loo2k.com/blog/",
+    "homepage_url"     : "https://github.com/loo2k/GenerateQRCode/",
     "permissions"      : ["tabs"]
 }
