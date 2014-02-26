@@ -1,27 +1,26 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>获取二维码</title>
-    <style type="text/css">
-    html, body {
-        width: 200px;
-        height: 200px;
-        /*overflow: hidden;*/
-        padding: 0;
-        margin: 0;
-    }
-    body {
-        font: normal 12px/1.5 Arial;
-        color: #333333;
-        background-color: #FFFFFF;
-    }
-    img {
-        cursor: pointer;
-    }
-    </style>
+	<meta charset="UTF-8">
+	<title>获取二维码</title>
+	<style type="text/css">
+	html, body {
+		padding: 0;
+		margin: 0;
+	}
+	body {
+		font: normal 12px/1.5 Arial;
+		color: #333333;
+		background-color: #FFFFFF;
+	}
+	#l2QRcode {
+		cursor: pointer;
+		padding: 10px;
+	}
+	</style>
 </head>
 <body>
-    <script src="popup.js"></script>
+	<script src="./bower_components/qr-js/qr.min.js"></script>
+	<script src="./popup.js"></script>
 </body>
 </html>
