@@ -5,6 +5,8 @@
 	<title>获取二维码</title>
 	<style type="text/css">
 	html, body {
+		height: 180px;
+		width: 180px;
 		padding: 0;
 		margin: 0;
 	}
@@ -13,14 +15,15 @@
 		color: #333333;
 		background-color: #FFFFFF;
 	}
-	#l2QRcode {
+	#qrcode {
 		cursor: pointer;
 		padding: 10px;
 	}
 	</style>
 </head>
 <body>
-	<script src="./bower_components/qr-js/qr.min.js"></script>
-	<script src="./popup.js"></script>
+	<div id="qrcode"></div>
+	<script src="js/qrcode.min.js"></script>
+	<script src="js/app.js"></script>
 </body>
 </html>

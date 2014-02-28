@@ -1,6 +1,6 @@
 {
     "name"             : "生成网页二维码",
-    "version"          : "0.2",
+    "version"          : "0.3",
     "manifest_version" : 2,
     "description"      : "自动生成当前网页的二维码",
     "icons"            : { 
