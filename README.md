@@ -4,6 +4,8 @@
 
 同时，这也是一款非常简单的 Chrome 浏览器插件的演示，如果你感兴趣，可以查看 `GenerateQR.source` 文件夹里面的源代码。
 
+[GenerateQR 下载链接](https://github.com/loo2k/GenerateQRCode/blob/master/GenerateQR.crx?raw=true)
+
 ## 安装说明
 
  - 下载项目文件到你的电脑，解压出 `GenerateQR.crx` Chrome 扩展程序文件；
